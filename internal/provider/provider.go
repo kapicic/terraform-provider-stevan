@@ -36,7 +36,7 @@ type stevanProviderModel struct {
 
 func (p *Provider) Metadata(ctx context.Context, req provider.MetadataRequest, resp *provider.MetadataResponse) {
 	resp.TypeName = "stevan"
-	resp.Version = "0.4.0"
+	resp.Version = "0.5.0"
 }
 
 func (p *Provider) Schema(ctx context.Context, req provider.SchemaRequest, resp *provider.SchemaResponse) {
